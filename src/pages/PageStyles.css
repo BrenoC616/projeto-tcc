@@ -1,0 +1,12 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
+@media screen and (min-width: 800px) and (min-height: 750px) {
+  .Container {
+    height: 100vh;
+  }
+}
